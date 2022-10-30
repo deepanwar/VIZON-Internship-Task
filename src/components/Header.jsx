@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 w-full bg-[#070707] px-5 sm:px-10 py-3 sm:py-5  flex justify-between items-center">
+      <div className="fixed top-0 left-0 w-full bg-[#070707] px-5 sm:px-10 py-3 sm:py-5  flex justify-between items-center z-50">
         <div className="sm:h-[60px] sm:w-[90px] h-[50px] w-[80px]">
           <img src={logo} alt="" className="h-full" />
         </div>
@@ -40,7 +40,7 @@ const Header = () => {
 
       {/* mobile navigation */}
       {openNav && (
-        <div className="fixed top-[70px] left-0 right-0 bottom-0 flex justify-center items-center flex-col bg-[#070707]/95 gap-5 duration-700 ease-in-out animate-slideup">
+        <div className="fixed top-[70px] left-0 right-0 bottom-0 flex justify-center items-center flex-col bg-[#070707]/95 gap-5">
           <ul>
             {links.map((link, i) => (
               <li
