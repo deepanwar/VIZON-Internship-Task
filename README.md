@@ -7,6 +7,7 @@
 
 ## Preview
 ### PC
+![profound-baklava-eec1bf netlify app_](https://user-images.githubusercontent.com/93703027/198868669-89a3be4a-9682-47c6-98ad-6bed3a7cccca.png)
 
 <!--![127 0 0 1_5173_(Nest Hub Max)](https://user-images.githubusercontent.com/93703027/198867304-3f9bb616-e3ae-40e8-9d8d-429c0328b673.png)-->
 ### Tablet and Mobile
